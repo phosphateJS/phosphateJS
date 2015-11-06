@@ -1,6 +1,8 @@
 # phosphateJS
 A chrome extension that will revolutionize scratch.
 Just add this text to a bookmark and go!
+
+
 javascript: (function () { 
   	var jsCode = document.createElement('script');
   	var jQuery = document.createElement('script');  
