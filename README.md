@@ -1,5 +1,5 @@
 # phosphateJS
-A chrome extension that will revolutionize scratch.
+A bookmarklet that will help scratch.
 Just add this text to a bookmark and go!
 
 
