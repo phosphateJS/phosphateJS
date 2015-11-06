@@ -3,10 +3,4 @@ A chrome extension that will revolutionize scratch.
 Just add this text to a bookmark and go!
 
 
-javascript: (function () { 
-  	var jsCode = document.createElement('script');
-  	var jQuery = document.createElement('script');  
-    jsCode.setAttribute('src', 'https://cdn.jsdelivr.net/phosphatejs/Basalisk-0.3/phosphate.js');
-    jQuery.setAttribute('src', 'https://code.jquery.com/jquery-1.11.3.min.js');                  
-  document.body.appendChild(jsCode);
- }());
+javascript:(function()%7Bfunction%20callback()%7B(function(%24)%7Bvar%20jQuery%3D%24%3Bjavascript%3A%20(function%20()%20%7Bvar%20jsCode%20%3D%20document.createElement('script')%3BjsCode.setAttribute('src'%2C%20'https%3A%2F%2Fcdn.jsdelivr.net%2Fphosphatejs%2FBasalisk-
