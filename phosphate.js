@@ -1,11 +1,11 @@
-$(document).ready(function(){
-	alert('Code ran.');
-    var scratch_player = $(".stage");
-    var url = window.location.href;
-    url = url.substr(33,40);
-    $(scratch_player).empty();
-    $(scratch_player).append("<script src=https://phosphorus.github.io/embed.js?id=", url, "&auto-start=false&light-content=false></script>");
-});
+javascript:
+p = document.getElementById("player");
+i = document.createElement('iframe');
+i.src = 'https://phosphatejs.github.io/phosphorus/embed.html?id=' + data.project.id;
+i.style.width = p.offsetWidth + "px";
+i.style.height = p.offsetHeight + 'px';
+p.innerHTML = '';
+p.appendChild(i);
 
 
 
